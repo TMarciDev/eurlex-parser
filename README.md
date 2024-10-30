@@ -1,4 +1,4 @@
-# Eurlex Parser Test
+# Eurlex Parser Test 2
 
 This Python package fetches and parses data(regulations, directives and proposals) from Eurlex, the official website for European Union law. It extracts various parts of legal documents by their CELEX IDs and supports exporting the data in JSON and Pandas DataFrame formats.
 
