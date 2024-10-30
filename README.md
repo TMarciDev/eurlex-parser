@@ -1,4 +1,4 @@
-# Eurlex Parser
+# Eurlex Parser Test
 
 This Python package fetches and parses data(regulations, directives and proposals) from Eurlex, the official website for European Union law. It extracts various parts of legal documents by their CELEX IDs and supports exporting the data in JSON and Pandas DataFrame formats.
 
@@ -13,7 +13,7 @@ pip install eurlex-parser
 ### Functions
 
 - `get_data_by_celex_id(celex_id: str, language: str = "en") -> dict`: Fetches and parses the data for the given CELEX ID. Returns a dictionary with the document's title, preamble, articles, final part, and annexes.
-  
+
 - `get_json_by_celex_id(celex_id: str) -> str`: Fetches and parses the data for the given CELEX ID and returns it in JSON format.
 
 - `get_articles_by_celex_id(celex_id: str) -> pd.DataFrame`: Fetches and parses the articles for the given CELEX ID and returns them as a Pandas DataFrame.
@@ -105,7 +105,7 @@ The main data structure returned by `get_data_by_celex_id` is a dictionary with 
       "url": "https://eur-lex.europa.eu/...",
       "reference": null
     }
-  ],  
+  ],
   "references": [
     "Directive ..../../..",
     "Regulation (EU) No .../....",
